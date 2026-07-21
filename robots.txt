@@ -1,0 +1,24 @@
+# Legitimate search engines are welcome — that's how people find this
+# portfolio. What's blocked below are bots known for aggressive, high-volume
+# scraping (SEO crawlers, content scrapers) that add load without adding
+# any real visibility benefit. Replace yourdomain.com with your real domain.
+
+User-agent: *
+Allow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+Sitemap: https://yourdomain.com/sitemap.xml

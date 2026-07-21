@@ -1,0 +1,13 @@
+# Netlify reads this file automatically and applies these headers to every
+# response. If you host elsewhere (GitHub Pages, Vercel, Cloudflare Pages),
+# see README.md for the equivalent for that platform — GitHub Pages in
+# particular cannot set custom headers at all, which is the main reason
+# Netlify or Cloudflare Pages is recommended over it for this site.
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), camera=(), microphone=()
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-XSS-Protection: 0
